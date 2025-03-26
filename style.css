@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    
+}
+#cabeçalho{
+    background-color: #bbab98;
+    margin: 50px 0px 50px 0px;
+    font-family: noto serif;
+    text-align: center;
+    
+}
+h1, h2, h3{
+    text-transform: uppercase; /*Deica em caixa auta*/
+
+}
+
+#nomeETitulo{
+    background-color: aliceblue;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+#nomeETitulo h1 h2{
+    margin: 0;
+}
+#contacto{
+    list-style-type: none;
+
+}
+#contacto i{
+    width: 30px;
+    color: #bbab98;
+}
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+}
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.cards h3{
+    font-family: noto serif;
+
+}
+.cards{
+    border: 1px solid #bbab98;
+    border-radius: 15px;
+    padding: 20px;
+}
+.cards li{
+    font-size: 20px;
+}
+.cards a{
+    text-decoration: none;
+    color: #6e5c46;
+    
+}
+.cards a:hover{
+    color: #696038;
+    transition: 0.9s;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+#Habilidades li{
+    list-style-type: none;
+    font-size: 20px;
+    font-size: larger;
+    font-family: noto serif;
+}
+
+
+/* Carrossel de Seleção */
+.carrossel-selecao {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Carrossel */
+  .carrossel {
+    width: 340px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #bbab987c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Pista do Carrossel */
+  .pista-carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Slide do Carrossel */
+  .carrossel-slide {
+    min-width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color :#bbab98;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Imagem do Slide */
+  .carrossel-slide img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Botões de Navegação do Carrossel */
+  .carrossel-botao {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #e8e5bc;
+    border: none;
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .carrossel-botao:hover {
+    background-color: #8d8b77;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px 0px #777777;
+  }
+  
+  .carrossel-botao.prev {
+    left: 10px;
+  }
+  
+  .carrossel-botao.next {
+    right: 10px;
+  }
+    
