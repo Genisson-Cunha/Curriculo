@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    background-color: #ecececc0;
     
 }
 #cabeçalho{
@@ -145,3 +146,55 @@ h1, h2, h3{
     right: 10px;
   }
     
+
+* {
+  margin: 0;
+  background-color: #ecececc0;
+}
+
+
+#cabeçalho {
+  background-color: #bbab98;
+  margin: 20px 0;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+  padding: 15px;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase; /* Deixa em caixa alta */
+}
+
+/* Responsividade para celular */
+@media screen and (max-width: 600px) {
+  #nomeETitulo {
+      background-color: aliceblue;
+      width: 100%; /* Ajusta largura para ocupar a tela */
+      margin: 10px auto;
+      padding: 15px;
+  }
+
+  #container {
+      display: block; /* Transforma o layout para coluna */
+      row-gap: 20px;
+  }
+
+  #sidebar, #content {
+      display: block;
+  }
+
+  .cards {
+      padding: 15px; /* Reduz padding em telas menores */
+      border-radius: 10px;
+  }
+
+  .carrossel {
+      width: 100%; /* Ajusta carrossel para ocupar largura da tela */
+      margin: 10px auto;
+  }
+
+  .carrossel-slide {
+      min-width: 90%; /* Ajusta o tamanho do slide */
+      margin: 0 auto;
+  }
+}
